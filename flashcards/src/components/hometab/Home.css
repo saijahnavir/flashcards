@@ -1,0 +1,11 @@
+.backg{
+    border: 0px;
+    border-radius: 0px;
+    width:100%;
+    padding: 0;
+    margin: 0; 
+}
+.container{
+    text-align: center;
+    padding-top:16%;
+}

@@ -1,0 +1,55 @@
+.header{
+    color: rgb(107, 43, 226);
+    background-color: rgb(226, 226, 226);
+    padding-left: 0.7rem;
+    display: block;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.empty{
+    margin-top: 3rem;
+}
+.page-body{
+    position:sticky;
+    border: 1rem solid rgb(226, 226, 226);
+    border-top: 0;
+    border-bottom: 1rem solid rgb(226, 226, 226);
+}
+
+/* Buttons */
+.create-button{
+    position:absolute;
+    bottom:0;
+    right:0;
+    border: 0;
+    margin: 1rem;
+    border-radius: 1.6rem;
+}
+
+.btn{
+    background-color: rgb(107, 43, 226);
+    color: white;
+    padding: 0.3rem 2rem;
+}
+
+.cancel-button{
+    border-radius: 1px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(107, 43, 226);
+    color: rgb(107, 43, 226);
+}
+
+
+.add-button{
+    border-radius: 1px;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(107, 43, 226);
+    background-color: rgb(107, 43, 226);
+}
+
+.modal{
+    color: rgb(107, 43, 226);
+}
+.modfoot{
+    justify-content: center;
+}
