@@ -46,6 +46,5 @@ In another terminal, do
 });
 ```
 
-##Screenshots
-![Alt text](/unplatforms-flashcards/screenshots/Screenshot 2023-05-01 192804.png?raw=true "Optional Title")
+
 
