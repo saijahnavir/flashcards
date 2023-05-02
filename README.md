@@ -3,7 +3,7 @@
 
 - An application which allows users to add flashcards for study references. 
 - Clicking the 'add card' button on the widget page will display a pop-up that will read the data, and display it on the screen. 
-- If the flashcard has an error, there's no worry! users can always delete and add another flashcard with correct details.
+- If the flashcard has an error, there's no worry! users can always delete (by clicking the 'x' on the flashcard) and add another flashcard with correct details.
 
 
 ## Tech Stack
