@@ -22,6 +22,7 @@ In a new terminal, do
 
 ```bash
   cd flashcards
+  npm install
   npm start
 ```
 In another terminal, do
