@@ -9,7 +9,7 @@ const app=express();
 const db=mysql.createConnection({
     host     :"localhost",
     user     :"root",
-    password : "preeti27022003@R",
+    password : "password",
     database : "cruddb",
     port     : 3306
 });
