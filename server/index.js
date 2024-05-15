@@ -3,14 +3,16 @@ import mysql from 'mysql2';
 import cors from 'cors';
 import bodyParser from 'body-parser';
 import fileUpload from 'express-fileupload';
+import dotenv from 'dotenv'
+
 
 const app=express();
-
+dotenv.config()
 const db=mysql.createConnection({
-    host     :"localhost",
+    host     :process.env.HOST,
     user     :"root",
-    password : "preeti27022003@R",
-    database : "cruddb",
+    password : process.env.PASSWORD,
+    database : process.env.DATABASE,
     port     : 3306
 });
 
@@ -26,7 +28,7 @@ app.use(fileUpload())
 
 app.get('/api/get', (req,res) => {
 
-    const sqlSelect = "SELECT * FROM flash_cards";
+    const sqlSelect = "SELECT * FROM flash_cards where question like '%m%'";
     db.query( sqlSelect, (err,result) => {
         res.send(result)
     })
