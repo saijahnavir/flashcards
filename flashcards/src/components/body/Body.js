@@ -17,7 +17,7 @@ const Body = () =>{
     .then((response) =>{
       setCard(response.data)
     })
-  });
+  },[card]);
   
 
     return(
